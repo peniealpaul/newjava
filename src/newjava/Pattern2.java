@@ -11,7 +11,7 @@ public class Pattern2 {
 		for(int j=a-t;j>=0;j--) {
 			System.out.print("     ");
 		}
-		for(int k=0;k<=t*10;k++) {
+		for(int k=0;k<=t;k++) {
 			System.out.print("*");
 		}
 		for(int n=a-t;n>=m;m--) {
@@ -23,4 +23,4 @@ public class Pattern2 {
 	
 
 }
-}
+}/ 
