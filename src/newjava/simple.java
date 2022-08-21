@@ -1,23 +1,20 @@
 package newjava;
 import java.util.Scanner;
 public class simple {
-
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String a=new String("paul");
+String a=new String("p");
 Scanner h=new Scanner(System.in);
+do{
 System.out.println("enter email id");
 String t=h.nextLine();
 
 if((a.equals(t))) {
-	String b=new String( "12345");
-	System.out.print("enter password");
+	String b=new String( "5");
+	do{System.out.print("enter password");
 	String k=h.nextLine();
-	if(b.equals(k)) {
-		
-			 
-			System.out.print("enter size of pattern");
+	if(b.equals(k)) do{
+		System.out.print("enter size of pattern");
 			Scanner u=new Scanner(System.in);
 			int y=u.nextInt();
 			int m=y*2;
@@ -35,18 +32,12 @@ if((a.equals(t))) {
 			System.out.println();
 			
 			}
-			
-			
-			
-	}
-			
-		
-	
-	else
-		{System.out.print("invalid password");}
-}
+			}while(true);
+			else
+		{System.out.println("invalid password");}}while(true);}
 else
-	System.out.print("invalid email");
-	}
+	System.out.println("invalid email");
+	
 
+}while(true);}
 }
