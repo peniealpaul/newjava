@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class simple2 {
 	public static void main(String[]arg) {
 	Scanner sc=new Scanner(System.in);
-	String n=sc.nextLine();
 	System.out.print("enter string");
+	String n=sc.nextLine();
+	
 	char [] a=new char[n.length()];
-	for(int t=0;t<=n.length();t++) {
+	for(int t=0;t<=n.length()-1;t++) {
 		a[t]=n.charAt(t);
 	}
 		int c=0;
