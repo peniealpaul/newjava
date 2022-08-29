@@ -1,15 +1,17 @@
 package newjava;
+import java.util.Scanner;
 
 public class pattern1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 5, i,j;
-		for (i = 0; i >a; i++) {
-			for(j=0;j>a;j++) {
-				System.out.print("*");
-			}
-
-		}
-
-	}}
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter number");
+		String num=sc.nextLine();
+		int i;
+		char j;
+     for( i=0,j='A';i<=num.length()-1;i++,j++) {
+	char u=num.charAt(i);
+	System.out.println(j+"="+u);
+	
+			}}}
