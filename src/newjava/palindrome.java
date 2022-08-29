@@ -6,13 +6,14 @@ public class palindrome {
 		   public  static void main(String []args) {
 			  Scanner d=new Scanner(System.in);
 			  System.out.println("enter string");
-			  do{String s1=d.nextLine();
+			  do{
+				  String s1=d.nextLine();
 
 		    String  s2= "";
 		    
 		    int strLength = s1.length();
 
-		    for (int i = (strLength - 1); i >=0; --i) {
+		    for (int i = (strLength ); i >=1; --i) {
 		      s2 = s2 + s1.charAt(i);
 		    }
 

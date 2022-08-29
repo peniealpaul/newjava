@@ -9,10 +9,10 @@ public class Pattern2 {
 	for(int i=0;i<=m;i++) {
 	int t=(i<a?i:m-i);
 		for(int j=a-t;j>=0;j--) {
-			System.out.print("     ");
+			System.out.print(" ");
 		}
 		for(int k=0;k<=t;k++) {
-			System.out.print("*");
+			System.out.print("* ");
 		}
 		for(int n=a-t;n>=m;m--) {
 			System.out.print(" ");
