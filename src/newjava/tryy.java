@@ -1,15 +1,19 @@
 package newjava;
 class tryy {
 	  public static void main(String[] args) {
+		 int a=10;
+		 int b=6;
+		 System.out.println("before swap");
+		 System.out.println("A="+a);
+		 System.out.println("B="+b);
 		 
-		 for(int a=1;a<=2;a++) 
-		 {
-			 for(int b=1;b<=a;b++) {
-				 System.out.print("* ");
+		 a=a+b; 
+		b=a-b;
+		a=a-b;
+		System.out.println("after swap");
+		System.out.println("A="+a);
+		System.out.println("B="+b);
 			 }
-		 }
-			 
-		 }
 		 
 
 	    }
