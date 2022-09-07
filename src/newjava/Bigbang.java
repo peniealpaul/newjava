@@ -3,7 +3,7 @@ package newjava;
 public class Bigbang {
 
 	public static void main(String[] args) {
-		int a=7;
+		int a=5;
 		if(a%3==0) {
 		System.out.print("bing  ");}
 		if(a%5==0) {
