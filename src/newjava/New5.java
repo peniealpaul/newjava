@@ -17,4 +17,6 @@ public class New5 {
 		break;
 			default:
 				System.out.print("invalid");
-			}}}
+			
+			}
+		}}
