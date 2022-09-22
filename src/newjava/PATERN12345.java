@@ -5,7 +5,7 @@ public class PATERN12345 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*int a=0;
-		for(int i=0;i<4;i++) {
+		for(int i=0;i<7;i++) {
 			for(int j=0;j<i;j++,++a) {
 				System.out.print(" "+a);
 				
@@ -29,12 +29,15 @@ public class PATERN12345 {
 		}
 		
 		
-		
-		
+		/*char c='A';
+		for (int i=0;i<1000000;i++) {
+			System.out.print(c);
+			c++;*/
+		}
 		
 		
 		
 
 	}
 
-}
+

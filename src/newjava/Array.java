@@ -11,7 +11,6 @@ a[2]=26;
 
 if((a[0]>a[1])&&(a[0])>a[2]) {
 	System.out.println(a[0]);
- \0pfdn
 }
 else if(a[1]>a[2]) {
 	 System.out.println(a[1]);
