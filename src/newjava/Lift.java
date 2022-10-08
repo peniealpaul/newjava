@@ -7,7 +7,7 @@ public class Lift {
 		// TODO Auto-generated method stub
 		int lift[] = new int[6];
 		boolean dirction[] = new boolean[6];
-		int l1[] = new int[6];
+		int distance[] = new int[6];
 		boolean oourdirction;
 		int ourloction;
 		char ourd;
@@ -54,38 +54,40 @@ public class Lift {
 		if (oourdirction) {
 			for (int i = 0; i < lift.length; i++) {
 				if (ourloction == lift[i] && dirction[i] == oourdirction) {
-					l1[i] = 0;
+					distance[i] = 0;
 				}
 
 				else if (dirction[i]) {
 					if (ourloction <= lift[i]) {
-						l1[i] = (lift[i] - ourloction) + 10;
+						distance[i] = ((10-ourloction)+10)+(3-lift[i]);
 					} else
-						l1[i] = 10 - lift[i];
+						distance[i] = 10 - lift[i];
 				} else {
-					l1[i] = (lift[i]) + ourloction;
+					distance[i] = (lift[i]) + ourloction;
 				}
 			}
 		}
 		if (!oourdirction) {
 			for (int i = 0; i < lift.length; i++) {
 				if (ourloction == lift[i] && dirction[i] == oourdirction) {
-					l1[i] = 0;
+					distance[i] = 0;
 				} else if (!dirction[i]) {
 					if (ourloction >= lift[i]) {
-						l1[i] = (lift[i] + 10) + (-(ourloction - 10));
+						distance[i] = (lift[i] + 10) + (-(ourloction - 10));
 					} else
-						l1[i] = lift[i] - ourloction;
+						distance[i] = lift[i] - ourloction;
 				} else {
-					l1[i] = (10 - lift[i]) + (10 - ourloction);
+					distance[i] = (10 - lift[i]) + (10 - ourloction);
 				}
+			};
 			}
-		}
-		int low = l1[0];
+		for(int k:distance) {
+			System.out.println(k);}
+		int low = distance[0];
 		int in = 0;
-		for (int i = 0; i < l1.length; i++) {
-			if (low >= l1[i]) {
-				low = l1[i];
+		for (int i = 0; i < distance.length; i++) {
+			if (low >= distance[i]) {
+				low = distance[i];
 				in = i + 1;
 			}
 		}
