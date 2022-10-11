@@ -91,6 +91,6 @@ public class Lift {
 				in = i + 1;
 			}
 		}
-		System.out.print("LEFT " + in + " IS OPEN");
+		System.out.print("LEFT " + in + " IS come");
 	}
 }

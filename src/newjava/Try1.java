@@ -1,18 +1,18 @@
 package newjava;
 
 public class Try1 {
-	int call(int b) {
+	int call(int b,int c) {
 		if(b>0) {
 			
 			System.out.println("hey");
-		int c= b* call(b-1);
+		 c= c+call(b-1,c);
 		System.out.println("hi");
 			 return c;
 			 
 		
 		}
 			System.out.println("hello");
-		return 2;
+		return c;
 		
 	}
 
@@ -21,7 +21,7 @@ public class Try1 {
 		
 		
 		Try1 sc=new Try1();
-		int a=sc.call(5);
+		int a=sc.call(5,0);
 		System.out.println(a);
 
 	}
