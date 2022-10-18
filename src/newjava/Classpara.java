@@ -10,15 +10,15 @@ public class Classpara {
 		//System.out.println("sub is ="+c);
 		return c;
 	}
-	void mul(int a,int b) {
-		int c=a*b;
+	 void mul(int a,int b) {
+		 int c=a*b;
 		System.out.println("mul is ="+c);
 	}
 	void div(int a,int b) {
 		int c=a/b;
 		System.out.println("div is ="+c);
 	}
-public static void main(String[] args) {
+public static void main(Stribng[] arg) {
 		// TODO Auto-generated method stub
 		Classpara p=new Classpara();
 		int a=p.add(5,5);

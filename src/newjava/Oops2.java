@@ -19,6 +19,12 @@ public class Oops2 {
 	    
 	     Oops2 sc=new Oops2();
 	            
-	      }
+	      
 		  
-		}
+		
+public static Pld{
+	static {
+		System.out.println("bye");
+	
+	
+}}

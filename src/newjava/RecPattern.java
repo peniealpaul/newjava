@@ -31,7 +31,7 @@ public class RecPattern {
 		}
 	}
 
-	void pa(int b, int c,int d,int e,int f,int g) {
+	 void pa(int b, int c,int d,int e,int f,int g) {
 		if (b > 0)
 			pat(c, b, c,d,e,f,g);
 	}

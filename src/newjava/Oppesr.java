@@ -1,7 +1,7 @@
 package newjava;
 
 public class Oppesr {
-	static {
+	 static {
 		System.out.print("paul");
 	}
 

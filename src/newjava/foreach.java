@@ -16,12 +16,6 @@ public class foreach {
 				System.out.println(b);
 
 			}
-			
-			
-			
-			
+			}
 		}
-
-	}
-
 }
