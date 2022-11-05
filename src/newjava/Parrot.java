@@ -11,4 +11,9 @@ Parrot(){
 		System.out.println("not fly");
 	}
 
+	 void walk() {
+		System.out.println("walk");
+	}
+
 }
+   w

@@ -22,6 +22,7 @@ public class Interface {
 }
 
 interface fam {
+	
 	void care();
 	void function();
 }
@@ -32,6 +33,9 @@ interface com {
 
 
 class person implements fam,com{
+	person(){
+		
+	}
 
 	@Override
 	public void function() {

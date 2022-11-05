@@ -4,15 +4,18 @@ public class Try123 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int y=true?10:20;
+		/*int y=true?10:20;
 		System.out.print(y);
 		
 		
 		
 		boolean a[]=new boolean[2];
 		a[1]=true;
-		System.out.print(a[1]);
+		System.out.print(a[1]);*/
+final int a=10;
+System.out.println(a);
 
+System.out.println(a);
 	}
 
 }

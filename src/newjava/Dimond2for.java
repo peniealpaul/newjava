@@ -13,6 +13,7 @@ for(int i=0;i<=n;i++) {
 		else if(j>(n/2-1))
 			System.out.print(" ");
 		}System.out.println();
+		
     }
 	}
 	}

@@ -1,7 +1,13 @@
 package newjava;
 
 public class Try1 {
-	int call(int b,int c) {
+	/*static void add() {
+		System.out.println("9876");
+	}
+	static void add(int a) {
+		System.out.println("4242");
+	}
+	/*int call(int b,int c) {
 		if(b>0) {
 			
 			System.out.println("hey");
@@ -22,12 +28,22 @@ public class Try1 {
 		
 		Try1 sc=new Try1();
 		int a=sc.call(5,0);
+		System.out.println(a);*/
+	
+	public static void main(String [] arg) {
+		
+		
+		int a=3%3;
 		System.out.println(a);
-
-	}
+		
+	/*for(int i=0;i<=20;i++) {
+		System.out.println(i);
+	if(i==10)	
+break;
+	}*/
 	
 	
-	
+}
 	}
 
 
