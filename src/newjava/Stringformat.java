@@ -4,7 +4,9 @@ public class Stringformat {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String a="100000000";
+		int c=100000000;
+		
+		String a=Integer.toString (c);
 		String b="";
 		b=b+"Rs ";
 		int count=0;
@@ -17,7 +19,7 @@ public class Stringformat {
 				b=b+",";}
 			}else {
 				if(count%2==0) {
-					b=b+",";b
+					b=b+",";
 				}
 			}
 			   }

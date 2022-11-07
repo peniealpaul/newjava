@@ -4,7 +4,7 @@ public class Findfirstrepeatchar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String a="ploymorphism";
+		String a="luymmorphism";
 		for(int i=0;i<a.length();i++) {
 			int count=0;
 			for(int j=0;j<a.length();j++) {
